@@ -4,6 +4,8 @@
 #define GLEW_STATIC
 #include <glew/glew-2.1.0/include/GL/glew.h>
 
+#include <GL/glew.h>
+
 // glfw
 #include <glfw/include/GLFW/glfw3.h>
 
