@@ -13,6 +13,7 @@ void glr::Window::create() {
 
 	glfwSetKeyCallback(context, Event::callbackKeyInput);
 	glfwSetCursorPosCallback(context, Event::callbackCursorPos);
+	glfwSetMouseButtonCallback(context, Event::callbackMouseClick);
 
 	if(glewInit() != GLEW_OK) { GLRLOG("error initializing glew"); shouldClose(true); return; }
 	glViewport(0, 0, wW, wH);
