@@ -1,6 +1,6 @@
 #include "glsr.h"
 
-#include "stb_image.h"
+#include "stb_image/stb_image.h"
 
 void glr::Texture::setData(unsigned char *ptr, int _w, int _h, int _nc) {
 	if(!ptr) return;
