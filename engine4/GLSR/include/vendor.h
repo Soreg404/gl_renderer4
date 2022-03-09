@@ -2,7 +2,7 @@
 
 // glew
 #define GLEW_STATIC
-#include <GL/glew.h>
+#include <GLEW/glew.h>
 
 // glfw
 #include <GLFW/glfw3.h>
