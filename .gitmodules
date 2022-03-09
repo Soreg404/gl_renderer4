@@ -1,0 +1,15 @@
+[submodule "glfw"]
+	path = engine4/GLSR/include/vendor/glfw
+	url = https://github.com/Soreg404/glfw.git
+[submodule "glew"]
+	path = engine4/GLSR/include/vendor/glew
+	url = https://github.com/Soreg404/glew.git
+[submodule "glm"]
+	path = engine4/GLSR/include/vendor/glm
+	url = https://github.com/Soreg404/glm.git
+[submodule "assimp"]
+	path = engine4/GLSR/include/vendor/assimp
+	url = https://github.com/Soreg404/assimp.git
+[submodule "stb_image"]
+	path = engine4/GLSR/include/vendor/stb_image
+	url = https://github.com/Soreg404/stb_image.git
